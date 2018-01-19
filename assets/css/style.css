@@ -74,6 +74,21 @@ p{
 	text-align: center;
 }
 
+#sidebar ul{
+	margin: 0;
+	padding: 0;
+}
+
+#sidebar ul li{
+	display: inline;
+}
+
+.sbl{
+	height: 64px;
+	width: 64px;
+}
+
+
 #headbar{
 	background-color: #ffffff;
 	overflow: auto;
