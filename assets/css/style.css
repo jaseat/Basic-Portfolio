@@ -28,14 +28,14 @@ p{
 	line-height: 120%;
 }
 
-.content{
+#content{
 	width: 960px;
 	overflow: auto;
 	margin: 0 auto;
 	margin-bottom: 100px;
 }
 
-.main-section{
+#main-section{
 	background-color: #ffffff;
 	padding: 20px;
 	width: 608px;
@@ -43,7 +43,7 @@ p{
 	border: 1px solid #dddddd;
 }
 
-.main-section h1{
+#main-section h1{
 	color: #4aaaa5;
 	border-bottom: 3px solid #cccccc;
 	padding: 10px 0 20px 0;
@@ -57,7 +57,7 @@ p{
 	padding-right: 10px;
 }
 
-.sidebar{
+#sidebar{
 	background-color: #ffffff;
 	width: 248px;
 	float: right;
@@ -66,7 +66,7 @@ p{
 
 }
 
-.sidebar h2{
+#sidebar h2{
 	color: #4aaaa5;
 	border-bottom: 1px solid #cccccc;
 	padding: 10px 0 20px 0;
@@ -74,7 +74,7 @@ p{
 	text-align: center;
 }
 
-.headbar{
+#headbar{
 	background-color: #ffffff;
 	overflow: auto;
 	margin-bottom: 20px;
@@ -83,7 +83,7 @@ p{
 	width: 100%;
 }
 
-.headbar #name{
+#headbar #name{
 	margin-left: 100px;
 	color: white;
 	background-color: #4aaaa5;
@@ -94,7 +94,7 @@ p{
 	padding: 0 25px 0 25px;
 }
 
-.headbar ul{
+#headbar ul{
 	float: right;
 	height: inherit;
 	display: flex;
@@ -102,23 +102,26 @@ p{
 	margin-right: 50px;
 }
 
-.headbar ul li{
+#headbar ul li{
 	display: inline;
 	
 }
 
-.headbar ul li:not(:first-child):before {
+#headbar ul li:not(:first-child):before {
 	color: #dddddd;
     content: " | ";
     padding-left: 10px;
     padding-right: 10px;
 }
 
-.headbar ul li a{
+#headbar ul li a{
 	text-decoration: none;
 	color: #aaaaaa;
 }
 
+#headbar ul li a:hover{
+	text-decoration: underline;
+}
 
 #footer{
 	color:	#cccccc;
@@ -128,4 +131,35 @@ p{
 	border-top: 10px solid #4aaaa5;
 	position: sticky;
 	bottom: 0;
+}
+
+input[type=text], textarea {
+	width: 100%;
+	margin: 6px 0;
+	border: 1px solid #ccc;
+	padding: 8px 8px;
+	box-sizing: border-box;
+	font-size: 16px;
+}
+
+#contact{
+	color: #666666;
+	width: inherit;
+}
+
+textarea{
+	height: 180px;
+	resize: vertical;
+	max-height: 420px;
+	min-height: 180px;
+}
+
+input[type=submit]{
+	font-size: 16px;
+	color: #ffffff;
+	background-color: #4aaaa5;
+	cursor: pointer;
+	border: none;
+	padding: 12px 24px;
+	margin: 10px 0;
 }
