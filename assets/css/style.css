@@ -188,3 +188,41 @@ input[type=submit]{
 	padding: 12px 30px;
 	margin: 10px 0;
 }
+
+#portfolio-list{
+	list-style: none;
+	width: 100%;
+	font-size: 0;
+}
+
+#portfolio-list li{
+	display: inline-block;
+	
+	margin-bottom: 32px;
+}
+
+#portfolio-list li:nth-of-type(2n){
+	margin-left: 48px;
+}
+
+.portfolio-img{
+	width: 280px;
+	height: 210px;
+	position: relative;
+}
+
+.portfolio-img img{
+	width: inherit;
+	height: inherit;
+}
+
+.portfolio-img h3{
+	position: absolute;
+	color: #fff;
+	bottom: 10px;
+	background-color: #4aaaa5;
+	width: inherit;
+	text-align: center;
+	font-size: 16px;
+	padding: 16px 0;
+}
